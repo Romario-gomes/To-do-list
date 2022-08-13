@@ -1,9 +1,11 @@
-import { Container } from './styles';
+import { Container, Content } from './styles';
 
 export function Header() {
   return (
     <Container> 
-      <h1>Hello World!</h1>
+      <Content>
+        <span>to.<strong>do</strong></span>
+      </Content>
     </Container>
   )
 }

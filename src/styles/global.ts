@@ -9,6 +9,12 @@ export const GlobalStyle = createGlobalStyle`
 
 
   body{
-    background-color: #fff;
+    background-color: #F0F2F5;
   }
+
+  body, input, textarea, button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+  }
+
 ` 
